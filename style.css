@@ -1,0 +1,229 @@
+/* Resset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.clear{
+clear: both;
+}
+.text-white{
+    color: #fff !important;
+}
+#header {
+    height: 46px;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#menu > li {
+    display: inline-block;
+}
+#menu li {
+    position: relative;
+}
+
+#menu {
+    display: inline-block;
+}
+#header .search_button{
+    float: right;
+    color: #fff;
+    line-height: 46px;
+    font-size: 20px;
+    padding: 0 21px;
+    cursor: pointer;
+}
+#header .search_button:hover {
+    background-color: red;
+}
+#menu .down_arrow {
+    font-size: 14px;
+}
+#menu >li >a {
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 24px;
+    text-transform: uppercase;
+    
+}
+#menu li a {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0px 24px;
+    
+}
+
+#menu .submenu li:hover a,
+#menu > li:hover > a {
+    color: #000;
+    background-color: #ccc;
+}
+#menu .submenu {
+    position: absolute;
+    background-color: #fff;
+    box-shadow:0 0 15px rgb(0, 0, 0.5) ;
+    cursor: pointer;
+    display: none;
+}
+#menu .submenu li a {
+    background-color: #fff; 
+    color: #000;
+    min-width: 160px;
+    padding: 0 16px;
+}
+#menu li:hover .submenu {
+    display: block;
+}
+ul {
+    list-style: none;
+}
+@keyframes banner {
+
+}
+#banner {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/img/bg_theband.jpg') top center / cover no-repeat;
+    position: relative;
+}
+#banner .text-content {
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#content .content-section{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0px;
+    margin-top: 25px;
+
+
+}
+#content .heading-section{
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 500px;
+}
+#content .sub-heading-section{
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 25px;
+    font-style: italic;
+    font-size: 15px;
+}
+#content .text-main-section{
+    text-align: justify;
+    margin-top: 25px;
+    line-height: 1.4;
+}
+#content .member-list{
+    margin-top: 48px;
+    /* overflow: hidden; */
+    text-align: center;
+}
+#content .name{
+   
+    font-size: 15px;
+}
+#content .member-avatar{
+    float: left;
+    width: 33.333333%;
+}
+#content .member-img{
+    margin-top: 15px;
+    border-radius: 4px;
+    width: 154px;
+}
+.contain-tour{
+    background-color: #000;
+}
+.contain-tour li{
+    list-style: none;
+    padding: 10px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+}
+.tickets-list{
+    background-color: #fff;
+    margin-top: 40px;
+    font-size: 15px;
+}
+.contain-tour .sold-out{
+color: #fff;
+background-color: #f44336;
+margin-left: 16px;
+padding: 4px;
+}
+.contain-tour .quantity{
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -3px;
+}
+.tickets-tour{
+    margin-top: 32px;
+    font-size: 15px;
+}
+.places-tour{
+    background-color: #fff;
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 12px;
+    margin: 0px 0px 16px;
+    
+}
+.img-tour{
+    display: block;
+    width: 100%;
+}
+.img-tour:hover{
+    opacity: 0.7;
+}
+
+.text-ccc{
+    opacity: 0.6;
+}
+.main-tour-content{
+    margin-top: 15px;
+    padding: 0.01em 16px;
+}
+.places-tour p{
+    margin: 15px 0px;
+}
+.btn-buy{
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    display: inline-block;
+    text-align: center;
+    background-color: #000;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-buy:hover{
+    color: #000;
+    background-color: #ccc;
+}
+#footer {
+    
+}

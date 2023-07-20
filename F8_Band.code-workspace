@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../vs_html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "F8_Band"
+	}
+}
